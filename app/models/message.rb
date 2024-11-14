@@ -1,3 +1,3 @@
-class Message < ApplicationRecord
-  
+class Message < ApplicationRecord  
+    belongs_to :room
 end
