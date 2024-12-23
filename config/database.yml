@@ -8,7 +8,7 @@ development:
   username: root
   password:
   host: localhost
-  database: chat-app_development
+  database: chat_app_development
 
 test:
   <<: *default
@@ -16,7 +16,7 @@ test:
   username: root
   password:
   host: localhost
-  database: chat-app_test
+  database: chat_app_test
 
 production:
   <<: *default
